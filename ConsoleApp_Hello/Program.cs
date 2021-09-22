@@ -29,7 +29,6 @@ namespace ConsoleApp_Hello
 
                 var sum = scope.GetVariable<Func<int, int, int>>("sum");
                 Console.WriteLine(sum(1, 2));
-
             }
             catch (Exception ex)
             {
